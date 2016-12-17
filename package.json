@@ -12,5 +12,10 @@
     "fs": "^0.0.1-security",
     "http": "^0.0.0",
     "jade": "^1.11.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "should": "^11.1.2"
   }
 }
