@@ -1,0 +1,20 @@
+html
+  body(style='background: #f3f3f3')
+    #contents(style='background: #fff; border: 1px solid #eee; padding: 15px 30px; -webkit-border-radius: 15px;')
+      h1(style='color: #222; font-size: 20px;') Worker ##{worker.id} exception
+      pre(style='color: #444; font-size: 12px;')= error.stack
+      - if (data)
+        table
+          - each val, key in data
+            tr(style='padding: 15px 0;')
+              td(style='vertical-align: top; color: #222; font-weight: bold')= key
+              - if (val && 'object' == typeof val)
+                td
+                  table
+                    - each v, k in val
+                      tr
+                        td(style='color: #444;')= k
+                        td(style='color: #444;')= v
+              - else
+                td(style='color: #444;')= val
+              

@@ -1,0 +1,16 @@
+{
+  "name": "cluster-email",
+  "version": "1.0.0",
+  "description": "send email if cluster exception",
+  "main": "index.js",
+  "repository": "git@github.com:sunNode/node-cluster-email.git",
+  "author": "JACK",
+  "license": "MIT",
+  "dependencies": {
+    "cluster": "^0.7.7",
+    "email": "^0.2.6",
+    "fs": "^0.0.1-security",
+    "http": "^0.0.0",
+    "jade": "^1.11.0"
+  }
+}
