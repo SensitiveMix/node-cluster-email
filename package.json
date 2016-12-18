@@ -6,6 +6,9 @@
   "repository": "git@github.com:sunNode/node-cluster-email.git",
   "author": "JACK",
   "license": "MIT",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/_mocha  test/ --bail"
+  },
   "dependencies": {
     "cluster": "^0.7.7",
     "email": "^0.2.6",
