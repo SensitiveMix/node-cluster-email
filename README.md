@@ -7,6 +7,7 @@
 
 ```
 [![Build Status](https://travis-ci.org/sunNode/node-cluster-email.svg?branch=master)](https://travis-ci.org/sunNode/node-cluster-email)
+[![codecov](https://codecov.io/gh/sunNode/node-cluster-email/branch/master/graph/badge.svg)](https://codecov.io/gh/sunNode/node-cluster-email)
 
 
 A module for taking advantage of the built-in cluster module in node v0.8 and above.send email if cluster exception,you will recieve a detail email about worker exception.
