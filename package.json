@@ -7,7 +7,8 @@
   "author": "JACK",
   "license": "MIT",
   "scripts": {
-    "test": "./node_modules/mocha/bin/_mocha  test/ --bail"
+    "test": "./node_modules/mocha/bin/_mocha  test/ --bail",
+    "test-cov": "node node_modules/istanbul-harmony/lib/cli.js cover ./node_modules/mocha/bin/_mocha  -- --timeout 500000 --recursive test/"
   },
   "dependencies": {
     "cluster": "^0.7.7",
@@ -18,6 +19,7 @@
   },
   "devDependencies": {
     "chai": "^3.5.0",
+    "istanbul-harmony": "^0.3.16",
     "mocha": "^3.2.0",
     "should": "^11.1.2"
   }
