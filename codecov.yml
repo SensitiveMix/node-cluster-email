@@ -1,0 +1,11 @@
+machine:
+  node:
+    version: 6.8.0
+
+general:
+    artifacts:
+        - ./coverage
+
+test:
+    post:
+         - bash <(curl -s https://codecov.io/bash) -t 2ca65474-9136-43e2-ad6a-e7cc072250da
