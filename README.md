@@ -6,7 +6,7 @@
 /_/ /_/\____/\__,_/\___/      \___/_/\__,_/____/\__/\___/_/         \___/_/ /_/ /_/\__,_/_/_/
 
 ```
-[![Build Status](https://travis-ci.org/sunNode/node-cluster-email.svg?branch=master)](https://travis-ci.org/sunNode/node-cluster-email)
+[![Build Status](https://travis-ci.org/SensitiveMix/node-cluster-email.svg?branch=master)](https://travis-ci.org/SensitiveMix/node-cluster-email)
 [![codecov](https://codecov.io/gh/sunNode/node-cluster-email/branch/master/graph/badge.svg)](https://codecov.io/gh/sunNode/node-cluster-email)
 
 
