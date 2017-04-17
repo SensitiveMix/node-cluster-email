@@ -14,7 +14,7 @@ A module for taking advantage of the built-in cluster module in node v0.8 and ab
 
 ## Installation
 ```bash
-npm install https://github.com/SensitiveMix/node-cluster-email
+npm install cluster-email
 ```
 
 
