@@ -13,6 +13,8 @@
 A module for taking advantage of the built-in cluster module in node v0.8 and above.send email if cluster exception,you will recieve a detail email about worker exception.
 
 ## Installation
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/SensitiveMix/node-cluster-email.svg)](https://greenkeeper.io/)
 ```bash
 npm install cluster-email
 ```
