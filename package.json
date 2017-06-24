@@ -13,12 +13,12 @@
   "dependencies": {
     "cluster": "^0.7.7",
     "email": "^0.2.6",
-    "fs": "^0.0.1-security",
+    "fs": "^0.0.2",
     "http": "^0.0.0",
     "jade": "^1.11.0"
   },
   "devDependencies": {
-    "chai": "^3.5.0",
+    "chai": "^4.0.2",
     "istanbul-harmony": "^0.3.16",
     "mocha": "^3.2.0",
     "should": "^11.1.2"
